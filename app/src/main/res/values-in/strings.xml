@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyMovie4</string>
+    <string name="tab_movie_label">FILM</string>
+    <string name="tab_tv_show_label">ACARA TV</string>
+    <string name="overview">Gambaran Ikhtisar</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="basic_information">Informasi Dasar</string>
+    <string name="language">Bahasa</string>
+    <string name="original_title">Judul Asli</string>
+    <string name="release">Tanggal Rilis</string>
+    <string name="favorite">Favorit</string>
+    <string name="add_to_favorite">Tambah ke favorit</string>
+</resources>

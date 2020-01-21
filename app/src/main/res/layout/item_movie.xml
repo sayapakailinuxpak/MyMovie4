@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_movie"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#FFFFFF">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_movie"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                tools:src="@android:color/darker_gray" />
+            <TextView
+                android:id="@+id/textview_movie_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/civ_movie"
+                android:layout_marginStart="10dp"
+                tools:text="Spider-Man : Into the Spider-Verse"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:fontFamily="@font/google_sans_thin"/>
+            <TextView
+                android:id="@+id/textview_movie_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="7.5"
+                android:drawableStart="@drawable/ic_star_black_24dp"
+                android:layout_below="@id/textview_movie_name"
+                android:layout_toEndOf="@id/civ_movie"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/google_sans_thin"/>
+            
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
